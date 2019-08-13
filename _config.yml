@@ -36,8 +36,8 @@ repository: paniterka/datastories_blog
 
 include:
   - _pages
-  - PL
-  - EN
+  - pl
+  - en
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -102,7 +102,7 @@ defaults:
   # blogposts PL 
   - scope:
       path: ""
-      type: PL
+      type: pl
     values:
       layout: single
       author_profile: true
@@ -113,7 +113,7 @@ defaults:
   # blogposts EN 
   - scope:
       path: ""
-      type: EN
+      type: en
     values:
       layout: single
       author_profile: true
@@ -130,10 +130,10 @@ tag_archive:
   path: /tags/
   
 collections:
-  PL:
+  pl:
     output: true
     permalink: /:categories/:title/
-  EN:
+  en:
     output: true
     permalink: /:categories/:title/
 

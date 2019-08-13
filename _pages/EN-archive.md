@@ -1,15 +1,14 @@
 ---
 title: "Posts in English"
-permalink: /EN/
+permalink: /en/
 author_profile: true
-truncatewords: 150 
 ---
 
 
 ## Latest stories
 
 <div class="grid__wrapper">
-  {% assign collection = 'EN' %}
+  {% assign collection = 'en' %}
   {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
     {% include archive-single.html type="list" %}
