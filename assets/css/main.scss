@@ -6,3 +6,19 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/*
+ .layout--single {
+	margin: 0 !important;
+}
+html {
+	height: 100vh !important;
+}
+*/
+
+
+/*sets body height to max; and allows scrollbar as page content grows*/
+body{
+	overflow: auto;
+}

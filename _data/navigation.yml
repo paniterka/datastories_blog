@@ -1,9 +1,13 @@
 main:
-  - title: "Posts"
+  - title: "PL"
+    url: /pl/
+  - title: "EN"
+    url: /en/
+  - title: "Archive"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
+#  - title: "Categories"
+#    url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
