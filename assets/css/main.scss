@@ -7,15 +7,26 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+@mixin archive__item-datetime {}
+@mixin page__date {}
+@mixin page__meta {}
 
 .archive__item-datetime {
-	font-size: 0.8em !important;
+	font-size: $type-size-6 !important;
 	margin-top: 4em !important;
-	margin-bottom: 0 !important;
+	margin-bottom: 0.5em !important;
 /*	text-decoration: overline;*/
 	border-top: 1px solid $text-color;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.page__date{
+	@include page__meta; 
+	font-size: $type-size-6 !important;
 	text-align: left;
-	font-style: italic
+	font-style: italic;
 }
 
 .latest_in {

@@ -30,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 3 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Zurich # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 repository: paniterka/datastories_blog
 
@@ -107,9 +107,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
   # blogposts EN 
   - scope:
       path: ""
@@ -118,9 +118,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
 
 category_archive:
   type: liquid
