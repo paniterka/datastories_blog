@@ -1,11 +1,9 @@
 ---
-title: "Posts in English"
+title: "In English"
 permalink: /en/
 author_profile: true
 ---
 
-
-## Latest stories
 
 <div class="grid__wrapper">
   {% assign collection = 'en' %}
